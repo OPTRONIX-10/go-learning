@@ -67,5 +67,17 @@ func main(){
 	// 	fmt.Println(value)
 	// }
 
+	// booleans and conditions
+
+	age :=45
+	if age <20{
+		fmt.Println("You are young")
+	}else if age <40{
+		fmt.Println("You are old")
+	}else{
+		fmt.Println("You are very old")
+	}
+
+
 
 }
