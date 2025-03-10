@@ -1,5 +1,10 @@
 package main
-import "fmt"
+
+import (
+	"fmt"
+	// "sort"
+	// "strings"
+)
 
 
 func main(){
@@ -27,16 +32,40 @@ func main(){
 
 	//arrays, alices
 
-	var ages [6]int = [6]int{1,2,3,4,5,6}
-	var newAges = [6]int{1,2,3,4,5}
-	newAges[2] = 10
+	// var ages [6]int = [6]int{1,2,3,4,5,6}
+	// var newAges = [6]int{1,2,3,4,5}
+	// newAges[2] = 10
+	// var scores = []int{1,2,3,4,5,6}
+	// scores = append(scores, 10)
+	// range1 := scores[2:5]
+	// fmt.Println(ages,newAges,scores,range1,len(ages),len(newAges))
 
-	var scores = []int{1,2,3,4,5,6}
-	scores = append(scores, 10)
-	range1 := scores[2:5]
+	//Standard packagaes
 
-	fmt.Println(ages,newAges,scores,range1,len(ages),len(newAges))
+	// greeetings:= "helllow good morning"
+	// fmt.Println(strings.Contains(greeetings,"morning"))
+	// fmt.Println(strings.ToUpper(greeetings))
+	// ages := []int{20,43,11,65,12}
+	// sort.Ints(ages)
+	// fmt.Println(ages)
 
+	// loops
+
+	// x:= 0
+	// for x<5{
+	// 	fmt.Print(x)
+	// 	x++
+	// }
+	// for i :=0; i<5;i++{
+	// 	fmt.Print(i)
+	// }
+	// ages:= []int{20,43,11,65,12}
+	// for index, value :=range ages{
+	// 	fmt.Println(index,value)
+	// }
+	// for _,value :=range ages{
+	// 	fmt.Println(value)
+	// }
 
 
 }
