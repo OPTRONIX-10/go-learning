@@ -27,7 +27,15 @@ func main(){
 
 	//arrays, alices
 
-	
+	var ages [6]int = [6]int{1,2,3,4,5,6}
+	var newAges = [6]int{1,2,3,4,5}
+	newAges[2] = 10
+
+	var scores = []int{1,2,3,4,5,6}
+	scores = append(scores, 10)
+	range1 := scores[2:5]
+
+	fmt.Println(ages,newAges,scores,range1,len(ages),len(newAges))
 
 
 
