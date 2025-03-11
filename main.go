@@ -9,6 +9,6 @@ import (
 func main(){
 
 	myBill := newBill("Chris")
-	fmt.Println(myBill)
+	fmt.Println(myBill.format())
  
 }
