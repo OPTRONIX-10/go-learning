@@ -5,13 +5,10 @@ import (
 	
 )
 
-func updateString(s *string){
-	*s = "Hello"
-}
+
 func main(){
- name := "Abhishek"
- newPointer := &name
- fmt.Println("Name: ", name)
- updateString(newPointer)
- fmt.Println("Name: ", name)
+
+	myBill := newBill("Chris")
+	fmt.Println(myBill)
+ 
 }
