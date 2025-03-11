@@ -41,7 +41,10 @@ func main(){
 	sample([]string{"john","doe","jane"}, greeting)
 	name := returnName("john", "doe")
 	f1,f2 := returnTwoStrings("john doe")
+	
 	fmt.Println(name, f1, f2)
+	//scope of pacakge
+	sampleNames("john")
 
 
 }
